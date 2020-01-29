@@ -17,16 +17,13 @@ body {
 h1,h2,h3,h4,h5,h6 {
    text-align: center;
 }
-#reviews {
-   position: center;
+#reviews > h1 {
+   width: 100%;
+   height: auto;
+   padding: 0;
+}
+#facebook {
    width: 100%;
    height: auto;
    overflow: auto;
-   padding: 0;
-}
-#facebook{
-   text-align: center;
-   width: 100%;
-   overflow: auto;
-   padding: 0;
 }
