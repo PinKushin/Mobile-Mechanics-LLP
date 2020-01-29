@@ -6,6 +6,9 @@ body {
    width: 60px;
    height: auto;
 }
+.fa-copyright {
+   font-size: 10px;
+}
 #welcome {
    position: center;
    width: 100%;
