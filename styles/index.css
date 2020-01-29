@@ -6,13 +6,23 @@ body {
    width: 60px;
    height: auto;
 }
+#barnav{
+   background-color: darkblue;
+}
 #welcome {
    position: center;
    width: 75%;
    height: auto;
 }
+h1,h2,h3,h4,h5,h6 {
+   text-align: center;
+}
 #reviews {
    position: center;
    width: 75%;
    height: auto;
+}
+#facebook{
+   position: center;
+   text-align: center;
 }
