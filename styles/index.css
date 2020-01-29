@@ -1,7 +1,18 @@
 body {
    background: black;
-}
+   color: white;
+   }
 #logo {
    width: 60px;
+   height: auto;
+}
+#welcome {
+   position: center;
+   width: 75%;
+   height: auto;
+}
+#reviews {
+   position: center;
+   width: 75%;
    height: auto;
 }
