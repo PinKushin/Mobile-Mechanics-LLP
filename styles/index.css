@@ -1,46 +1,51 @@
 body {
-   background: black;
-   color: white;
-   }
+    background: black;
+    color: white;
+}
 #logo {
-   width: 60px;
-   height: auto;
+    width: 60px;
+    height: auto;
 }
 .fa-copyright {
-   font-size: 10px;
+    font-size: 10px;
 }
 #welcome {
-   position: center;
-   width: 100%;
-   height: auto;
+    position: center;
+    width: 100%;
+    height: auto;
 }
-h1,h2,h3,h4,h5,h6 {
-   text-align: center;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-align: center;
 }
 #reviews > h1 {
-   width: 100%;
-   height: auto;
-   padding: 0;
+    width: 100%;
+    height: auto;
+    padding: 0;
 }
 #facebook {
-   width: 100%;
-   height: auto;
-   overflow: auto;
+    width: 100%;
+    height: auto;
+    overflow: auto;
 }
 .card {
-   background-color: darkblue;
+    background-color: darkblue;
 }
 .card-deck {
-   margin: 0px;
+    margin: 0px;
 }
 .card-img-bottom {
-   border-radius: 50%;
-   max-width: 30%;
+    border-radius: 50%;
+    max-width: 30%;
 }
 #infoHead {
-   margin-top: 2em;
+    margin-top: 2em;
 }
 #infoBody {
-   text-align: center;
-   margin-top: 1em;
+    text-align: center;
+    margin-top: 1em;
 }
