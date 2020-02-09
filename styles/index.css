@@ -1,7 +1,32 @@
 /** @format */
 body {
-  background: black;
-  color: white;
+  background: #00004d;
+  color: #ffffff;
+}
+
+a {
+  color: #b27300;
+}
+
+a:hover {
+  color: goldenrod;
+}
+
+a:focus,
+a:active {
+  color: yellow;
+}
+
+#navBar {
+  background-color: #0000b4;
+}
+
+#navBar a:hover {
+  color: goldenrod;
+}
+
+#navBar .active {
+  color: #ffffff;
 }
 
 #logo {
@@ -42,7 +67,7 @@ h6 {
 }
 
 .card {
-  background-color: darkblue;
+  background-color: #0000b4;
 }
 
 .card-deck {

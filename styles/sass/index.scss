@@ -1,8 +1,31 @@
 /** @format */
+$primaryColor: #00004d;
+$secondaryColor: #0000b4;
+$primaryText: #ffffff;
+$secondaryText: #b27300;
 
 body {
-  background: black;
-  color: white;
+  background: $primaryColor;
+  color: $primaryText;
+}
+a {
+  color: $secondaryText;
+}
+a:hover {
+  color: goldenrod;
+}
+a:focus,
+a:active {
+  color: yellow;
+}
+#navBar {
+  background-color: $secondaryColor;
+  a:hover {
+    color: goldenrod;
+  }
+  .active {
+    color: $primaryText;
+  }
 }
 #logo {
   width: 60px;
@@ -36,7 +59,7 @@ h6 {
   overflow: auto;
 }
 .card {
-  background-color: darkblue;
+  background-color: $secondaryColor;
 }
 .card-deck {
   margin: 0px;
