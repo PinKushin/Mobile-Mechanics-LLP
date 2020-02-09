@@ -28,7 +28,9 @@ a:active {
   }
 }
 .navbar-brand {
-  font-size: 2em;
+  @media only screen and (min-width: 785px) {
+    font-size: 2em;
+  }
 }
 
 #logo {

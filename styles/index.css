@@ -29,8 +29,10 @@ a:active {
   color: #ffffff;
 }
 
-.navbar-brand {
-  font-size: 2em;
+@media only screen and (min-width: 785px) {
+  .navbar-brand {
+    font-size: 2em;
+  }
 }
 
 #logo {
