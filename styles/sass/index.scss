@@ -9,6 +9,7 @@ $headingFont: 'Russo One', sans-serif;
 body {
   background: $primaryColor;
   color: $primaryText;
+  font-family: $primaryFont;
 }
 a {
   color: $secondaryText;
@@ -31,8 +32,9 @@ a:active {
 }
 .navbar-brand {
   @media only screen and (min-width: 785px) {
-    font-size: 2em;
+    font-size: 1.8em;
   }
+  font-family: $headingFont;
 }
 
 .fa-bars {
@@ -59,6 +61,7 @@ h5,
 h6 {
   margin: 1em;
   text-align: center;
+  font-family: $headingFont;
 }
 #reviews > h1 {
   width: 100%;

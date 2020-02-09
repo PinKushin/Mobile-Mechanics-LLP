@@ -2,6 +2,7 @@
 body {
   background: #00004d;
   color: #ffffff;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 a {
@@ -29,9 +30,13 @@ a:active {
   color: #ffffff;
 }
 
+.navbar-brand {
+  font-family: "Russo One", sans-serif;
+}
+
 @media only screen and (min-width: 785px) {
   .navbar-brand {
-    font-size: 2em;
+    font-size: 1.8em;
   }
 }
 
@@ -62,6 +67,7 @@ h5,
 h6 {
   margin: 1em;
   text-align: center;
+  font-family: "Russo One", sans-serif;
 }
 
 #reviews > h1 {
